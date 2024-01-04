@@ -7,15 +7,16 @@ body {
   width: 100%;
 }
 
-header {
-  background-color: black;
-  position: fixed;
-  left: 400px;
+header .menu {
+  position: relative;
+  top: 60px;
   z-index: 1;
+  background-color: grey;
 }
 header nav a {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  margin: 0 10px 0;
 }
 
 #welcome .box {
@@ -41,5 +42,5 @@ header nav a {
   background-color: yellow;
   position: absolute;
   left: 550px;
-  top: 500px;
+  top: 520px;
 }/*# sourceMappingURL=style.css.map */
