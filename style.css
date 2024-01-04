@@ -7,11 +7,14 @@ body {
   width: 100%;
 }
 
-#header .imgbox {
-  width: 30px;
+header {
+  background-color: black;
+  position: fixed;
+  left: 400px;
+  z-index: 1;
 }
-#header nav a {
-  color: yellow;
+header nav a {
+  color: white;
   font-size: 20px;
 }
 
