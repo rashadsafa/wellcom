@@ -9,7 +9,7 @@ body {
 
 header .menu {
   position: relative;
-  top: 60px;
+  top: 50px;
   z-index: 1;
   background-color: grey;
 }
