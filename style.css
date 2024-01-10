@@ -10,14 +10,14 @@ body {
 header {
   padding: 50px;
 }
-header .imgbox {
-  font-size: 20px;
-  margin-right: 80px;
-}
 header .menu {
   position: fixed;
   z-index: 1;
   background-color: #202428;
+}
+header .menu .imgbox {
+  font-size: 20px;
+  margin-right: 80px;
 }
 header nav a {
   color: white;
@@ -26,6 +26,8 @@ header nav a {
 }
 
 #welcome .box {
+  width: 400px;
+  height: 400px;
   position: relative;
 }
 #welcome .box h1 {
