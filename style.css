@@ -10,7 +10,7 @@ header .menu {
   position: fixed;
   z-index: 1;
   background-color: #202428;
-  padding: 40px;
+  padding: 20px 80px;
 }
 header .menu .imgbox {
   font-size: 20px;
@@ -21,7 +21,6 @@ header .menu .imgbox img {
 }
 header nav a {
   color: #ffffff;
-  font-size: 18px;
   margin: 0 10px 0;
 }
 header nav a:hover {
@@ -29,32 +28,33 @@ header nav a:hover {
 }
 
 #welcome .box {
-  width: 880px;
-  height: 880px;
+  width: 923px;
+  height: 923px;
   position: relative;
+  padding: 30px 0;
 }
 #welcome .box .imgbox img {
   width: 100%;
 }
 #welcome .box h1 {
-  font-size: 30px;
-  color: white;
+  font-size: 26px;
+  color: #ffffff;
   position: absolute;
-  left: 500px;
-  top: 350px;
+  left: 340px;
+  top: 260px;
 }
 #welcome .box h3 {
-  font-size: 40px;
-  color: white;
+  font-size: 60px;
+  color: #ffffff;
   position: absolute;
-  left: 450px;
-  top: 400px;
+  left: 210px;
+  top: 310px;
 }
 #welcome .box .btn {
   font-size: 20px;
-  color: white;
-  background-color: yellow;
+  color: #ffffff;
+  background-color: #ffff00;
   position: absolute;
-  left: 550px;
-  top: 520px;
+  left: 400px;
+  top: 390px;
 }/*# sourceMappingURL=style.css.map */
