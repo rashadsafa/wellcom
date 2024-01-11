@@ -3,10 +3,6 @@ body {
   font-weight: 500;
 }
 
-.imgbox img {
-  width: 100%;
-}
-
 header {
   padding: 40px;
 }
@@ -14,15 +10,18 @@ header .menu {
   position: fixed;
   z-index: 1;
   background-color: #202428;
-  margin: 40px 0;
+  padding: 40px;
 }
 header .menu .imgbox {
   font-size: 20px;
   margin-right: 80px;
 }
+header .menu .imgbox img {
+  width: 60%;
+}
 header nav a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 10px 0;
 }
 header nav a:hover {
@@ -30,9 +29,12 @@ header nav a:hover {
 }
 
 #welcome .box {
-  width: 400px;
-  height: 400px;
+  width: 880px;
+  height: 880px;
   position: relative;
+}
+#welcome .box .imgbox img {
+  width: 100%;
 }
 #welcome .box h1 {
   font-size: 30px;
